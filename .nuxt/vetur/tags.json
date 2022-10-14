@@ -1,0 +1,41 @@
+{
+  "ElementsButton": {
+    "description": "Auto imported from components/elements/Button/Button.vue"
+  },
+  "ElementsMessage": {
+    "description": "Auto imported from components/elements/Message/Message.vue"
+  },
+  "SharedContainer": {
+    "description": "Auto imported from components/shared/Container/Container.vue"
+  },
+  "SharedHeader": {
+    "description": "Auto imported from components/shared/Header/Header.vue"
+  },
+  "SharedHeaderPrimaryHeader": {
+    "description": "Auto imported from components/shared/Header/PrimaryHeader.vue"
+  },
+  "SharedMenu": {
+    "description": "Auto imported from components/shared/Menu/Menu.vue"
+  },
+  "SharedMenuPrimaryMenu": {
+    "description": "Auto imported from components/shared/Menu/PrimaryMenu.vue"
+  },
+  "SharedMenuSecondMenu": {
+    "description": "Auto imported from components/shared/Menu/SecondMenu.vue"
+  },
+  "SharedContainerContent": {
+    "description": "Auto imported from components/shared/Container/components/ContainerContent.vue"
+  },
+  "SharedContainerTop": {
+    "description": "Auto imported from components/shared/Container/components/ContainerTop.vue"
+  },
+  "SharedContainerComponentsContainterFooter": {
+    "description": "Auto imported from components/shared/Container/components/ContainterFooter.vue"
+  },
+  "SharedHeaderContent": {
+    "description": "Auto imported from components/shared/Header/components/HeaderContent.vue"
+  },
+  "SharedHeaderTop": {
+    "description": "Auto imported from components/shared/Header/components/HeaderTop.vue"
+  }
+}
