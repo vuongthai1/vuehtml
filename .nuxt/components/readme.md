@@ -14,6 +14,7 @@ You can directly use them in pages and other components without the need to impo
 - `<SharedMenu>` | `<shared-menu>` (components/shared/Menu/Menu.vue)
 - `<SharedMenuPrimaryMenu>` | `<shared-menu-primary-menu>` (components/shared/Menu/PrimaryMenu.vue)
 - `<SharedMenuSecondMenu>` | `<shared-menu-second-menu>` (components/shared/Menu/SecondMenu.vue)
+- `<SharedMenuThirdMenu>` | `<shared-menu-third-menu>` (components/shared/Menu/ThirdMenu.vue)
 - `<SharedContainerContent>` | `<shared-container-content>` (components/shared/Container/components/ContainerContent.vue)
 - `<SharedContainerTop>` | `<shared-container-top>` (components/shared/Container/components/ContainerTop.vue)
 - `<SharedContainerComponentsContainterFooter>` | `<shared-container-components-containter-footer>` (components/shared/Container/components/ContainterFooter.vue)

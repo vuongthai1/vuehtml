@@ -6,6 +6,7 @@ export { default as SharedHeaderPrimaryHeader } from '../..\\components\\shared\
 export { default as SharedMenu } from '../..\\components\\shared\\Menu\\Menu.vue'
 export { default as SharedMenuPrimaryMenu } from '../..\\components\\shared\\Menu\\PrimaryMenu.vue'
 export { default as SharedMenuSecondMenu } from '../..\\components\\shared\\Menu\\SecondMenu.vue'
+export { default as SharedMenuThirdMenu } from '../..\\components\\shared\\Menu\\ThirdMenu.vue'
 export { default as SharedContainerContent } from '../..\\components\\shared\\Container\\components\\ContainerContent.vue'
 export { default as SharedContainerTop } from '../..\\components\\shared\\Container\\components\\ContainerTop.vue'
 export { default as SharedContainerComponentsContainterFooter } from '../..\\components\\shared\\Container\\components\\ContainterFooter.vue'

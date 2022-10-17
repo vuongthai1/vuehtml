@@ -31,7 +31,6 @@ export default {
   grid-template-columns: 1fr 700px 1fr;
   grid-gap: 24px;
   box-sizing: border-box;
-  padding: 0 60px;
   @media only screen and (max-width: 680px) {
     [class*="header__content"] {
       width: 100%;

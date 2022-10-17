@@ -23,6 +23,9 @@
   "SharedMenuSecondMenu": {
     "description": "Auto imported from components/shared/Menu/SecondMenu.vue"
   },
+  "SharedMenuThirdMenu": {
+    "description": "Auto imported from components/shared/Menu/ThirdMenu.vue"
+  },
   "SharedContainerContent": {
     "description": "Auto imported from components/shared/Container/components/ContainerContent.vue"
   },
