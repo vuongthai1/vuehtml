@@ -8,13 +8,12 @@
 </template>
 
 <script>
-import PrimaryMenu from "../Menu/PrimaryMenu";
 import HeaderTop from "./components/HeaderTop";
 import HeaderContent from "./components/HeaderContent";
 
 export default {
   name: "Header",
-  components: { HeaderContent, HeaderTop, PrimaryMenu },
+  components: { HeaderContent, HeaderTop },
 };
 </script>
 <style lang="scss">

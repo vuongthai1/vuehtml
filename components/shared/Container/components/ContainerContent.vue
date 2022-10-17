@@ -1,24 +1,22 @@
 <template>
-  <div>
-    <div class="container">
-      <div class="container__title">Latest news from yobazar</div>
-      <div class="category">
-        <SecondaryMenu />
-      </div>
-      <div class="blog">
-        <ThirdMenu />
-      </div>
+  <div class="container">
+    <div class="container__title">Latest news from yobazar</div>
+    <div class="category">
+      <CategoryMenu />
+    </div>
+    <div class="blog">
+      <ThirdMenu />
     </div>
   </div>
 </template>
 
 <script>
-import SecondaryMenu from "../../Menu/SecondMenu";
+import CategoryMenu from "../../Menu/CategoryMenu";
 import ThirdMenu from "../../Menu/ThirdMenu";
 
 export default {
   name: "ContainerContent",
-  components: { SecondaryMenu, ThirdMenu },
+  components: { CategoryMenu, ThirdMenu },
 };
 </script>
 

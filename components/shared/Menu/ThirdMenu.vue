@@ -96,70 +96,82 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.blog {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  .blog__item {
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 400px;
+    box-sizing: border-box;
+
+    .blog:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .blog__image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .blog__content {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 130%;
+      /* or 32px */
+      text-align: center;
+      color: #191919;
+    }
+
+    .day__upload {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 19px;
+      text-align: center;
+      color: #191919;
+      padding-top: 20px;
+    }
+    .blog__badge {
+      position: relative;
+      top: 33px;
+      left: 13px;
+      width: 100%;
+      z-index: 10;
+    }
+    .badge__item {
+      background-color: white;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 17px;
+      color: #191919;
+      font-weight: 500;
+      border-radius: 40px;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 0 10px;
+      display: inline-block;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
 @media (min-width: 1000px) {
   .blog {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    .blog__item {
-      transition: 0.3s;
-      border-radius: 5px;
-      height: 400px;
-      box-sizing: border-box;
-
-      .blog:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      }
-
-      .blog__image {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .blog__content {
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        /* or 32px */
-        text-align: center;
-        color: #191919;
-      }
-
-      .day__upload {
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 19px;
-        text-align: center;
-        color: #191919;
-        padding-top: 20px;
-      }
-      .blog__badge {
-        position: relative;
-        top: 33px;
-        left: 13px;
-        width: 100%;
-        z-index: 10;
-      }
-      .badge__item {
-        background-color: white;
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 17px;
-        color: #191919;
-        font-weight: 500;
-        border-radius: 40px;
-        font-size: 12px;
-        line-height: 20px;
-        padding: 0 10px;
-        display: inline-block;
-      }
-    }
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
   }
 }
 </style>

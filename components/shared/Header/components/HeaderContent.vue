@@ -1,28 +1,25 @@
 <template lang="html">
-  <div class="container">
-    <div class="header__content">
-      <div class="header__logo"><img src="image/Capture.PNG" alt="" /></div>
-      <div class="header__menu">
-        <PrimaryMenu />
-      </div>
+  <div class="header__content">
+    <div class="header__logo"><img src="image/Capture.PNG" alt="" /></div>
+    <div class="header__menu">
+      <HeaderMenu />
+    </div>
 
-      <div class="header__actions">
-        <a class="header__actions__search" href="#"
-          ><i class="ri-search-line"></i
-        ></a>
-        <a class="header__actions__user" href="#"
-          ><i class="ri-user-line"></i
-        ></a>
-      </div>
+    <div class="header__actions">
+      <a class="header__actions__search" href="#"
+        ><i class="ri-search-line"></i
+      ></a>
+      <a class="header__actions__user" href="#"><i class="ri-user-line"></i></a>
     </div>
   </div>
 </template>
 
 <script>
-import PrimaryMenu from "../../Menu/PrimaryMenu";
+import HeaderMenu from "../../Menu/HeaderMenu";
+
 export default {
   name: "HeaderContent",
-  components: { PrimaryMenu },
+  components: { HeaderMenu },
 };
 </script>
 
@@ -52,23 +49,31 @@ export default {
     }
   }
 }
-@media only screen and (min-width: 600px) {
-  .header__actions {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 50px;
+.header__actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
 
-    a {
-      text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
+}
 
-    .header__actions__search {
-      display: block;
-    }
-    .header__actions__user {
-      display: block;
-    }
+@media (min-width: 700px) {
+  .header__actions__search {
+    display: block;
+  }
+  .header__actions__user {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .header__actions__search {
+    display: block;
+  }
+  .header__actions__user {
+    display: block;
   }
 }
 </style>

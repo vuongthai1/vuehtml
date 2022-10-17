@@ -11,17 +11,14 @@
   "SharedHeader": {
     "description": "Auto imported from components/shared/Header/Header.vue"
   },
-  "SharedHeaderPrimaryHeader": {
-    "description": "Auto imported from components/shared/Header/PrimaryHeader.vue"
+  "SharedMenuCategoryMenu": {
+    "description": "Auto imported from components/shared/Menu/CategoryMenu.vue"
+  },
+  "SharedMenuHeaderMenu": {
+    "description": "Auto imported from components/shared/Menu/HeaderMenu.vue"
   },
   "SharedMenu": {
     "description": "Auto imported from components/shared/Menu/Menu.vue"
-  },
-  "SharedMenuPrimaryMenu": {
-    "description": "Auto imported from components/shared/Menu/PrimaryMenu.vue"
-  },
-  "SharedMenuSecondMenu": {
-    "description": "Auto imported from components/shared/Menu/SecondMenu.vue"
   },
   "SharedMenuThirdMenu": {
     "description": "Auto imported from components/shared/Menu/ThirdMenu.vue"

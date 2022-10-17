@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "PrimaryMenu",
+  name: "HeaderMenu",
   data() {
     return {
       menuItems: [
