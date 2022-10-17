@@ -1,7 +1,11 @@
 <template lang="html">
   <div class="blog">
     <div class="blog__item" v-for="item in menuItems">
-      <div><img :src="item.img" alt="" /></div>
+      <div class="blog__badge">
+        <div class="badge__item">{{ item.chip1 }}</div>
+        <div class="badge__item">{{ item.chip2 }}</div>
+      </div>
+      <div class="blog__image"><img :src="item.img" alt="" /></div>
       <div class="blog__content">{{ item.content }}</div>
       <div class="day__upload">{{ item.dayUpload }}</div>
     </div>
@@ -92,70 +96,69 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.blog {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  .blog__item {
-    transition: 0.3s;
-    width: 28%;
-    border-radius: 5px;
-    height: 400px;
-    box-sizing: border-box;
+@media (min-width: 1000px) {
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    .blog__item {
+      transition: 0.3s;
+      border-radius: 5px;
+      height: 400px;
+      box-sizing: border-box;
 
-    .blog:hover {
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    }
+      .blog:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
 
-    .blog__image {
-      display: flex;
-      padding: 30px;
-      max-width: 75%;
-    }
+      .blog__image {
+        max-width: 100%;
+        height: auto;
+      }
 
-    .blog__content {
-      width: 370px;
-      height: 96px;
-      font-family: "Jost";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 130%;
-      /* or 32px */
-      text-align: center;
+      .blog__content {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        /* or 32px */
+        text-align: center;
+        color: #191919;
+      }
 
-      color: #191919;
-
-      /* Inside auto layout */
-
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-    }
-
-    .day__upload {
-      width: 370px;
-      height: 19px;
-      font-family: "Jost";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 19px;
-      text-align: center;
-      color: #191919;
-      padding-top: 20px;
-    }
-    .blog__chip {
-      padding: 0px 10px;
-      gap: 13px;
-      text-align: center;
-      background: #ffffff;
-      border-radius: 55px;
-      position: absolute;
-      top: 4px;
-      left: 4px;
-      z-index: 99;
-      display: flex;
+      .day__upload {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+        color: #191919;
+        padding-top: 20px;
+      }
+      .blog__badge {
+        position: relative;
+        top: 33px;
+        left: 13px;
+        width: 100%;
+        z-index: 10;
+      }
+      .badge__item {
+        background-color: white;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        color: #191919;
+        font-weight: 500;
+        border-radius: 40px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0 10px;
+        display: inline-block;
+      }
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "ElementsButton": {
-    "description": "Auto imported from components/elements/Button/Button.vue"
-  },
   "ElementsMessage": {
     "description": "Auto imported from components/elements/Message/Message.vue"
+  },
+  "ElementsButton": {
+    "description": "Auto imported from components/elements/Button/Button.vue"
   },
   "SharedContainer": {
     "description": "Auto imported from components/shared/Container/Container.vue"
@@ -25,6 +25,9 @@
   },
   "SharedMenuThirdMenu": {
     "description": "Auto imported from components/shared/Menu/ThirdMenu.vue"
+  },
+  "SharedPagination": {
+    "description": "Auto imported from components/shared/Pagination/Pagination.vue"
   },
   "SharedContainerContent": {
     "description": "Auto imported from components/shared/Container/components/ContainerContent.vue"

@@ -1,16 +1,18 @@
 <template lang="html">
   <div class="container">
     <div class="header__content">
-      <div class="header__left">
-        <div class="header__logo"><img src="image/Capture.PNG" alt="" /></div>
-      </div>
+      <div class="header__logo"><img src="image/Capture.PNG" alt="" /></div>
       <div class="header__menu">
         <PrimaryMenu />
       </div>
 
       <div class="header__actions">
-        <a class="header__item1" href="#"><i class="ri-search-line"></i></a>
-        <a class="header__item2" href="#"><i class="ri-user-line"></i></a>
+        <a class="header__actions__search" href="#"
+          ><i class="ri-search-line"></i
+        ></a>
+        <a class="header__actions__user" href="#"
+          ><i class="ri-user-line"></i
+        ></a>
       </div>
     </div>
   </div>
@@ -31,18 +33,17 @@ export default {
   grid-template-columns: 1fr 700px 1fr;
   grid-gap: 24px;
   box-sizing: border-box;
-  @media only screen and (max-width: 680px) {
+  @media (min-width: 600 px) {
     [class*="header__content"] {
       width: 100%;
     }
   }
 }
-.header__left {
+
+.header__logo {
   align-items: center;
   display: flex;
   justify-content: flex-start;
-}
-.header__logo {
   justify-content: center;
   @media only screen and (max-width: 680px) {
     img {
@@ -51,23 +52,22 @@ export default {
     }
   }
 }
-.header__actions {
-  padding-left: 30px;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-items: center;
-  gap: 50px;
+@media only screen and (min-width: 600px) {
+  .header__actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
 
-  a {
-    text-decoration: none;
-  }
-  @media only screen and (min-width: 600px) {
-    .header__item1 {
-      display: flex;
+    a {
+      text-decoration: none;
     }
-    .header__item2 {
-      display: flex;
+
+    .header__actions__search {
+      display: block;
+    }
+    .header__actions__user {
+      display: block;
     }
   }
 }

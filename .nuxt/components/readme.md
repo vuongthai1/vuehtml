@@ -6,8 +6,8 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<ElementsButton>` | `<elements-button>` (components/elements/Button/Button.vue)
 - `<ElementsMessage>` | `<elements-message>` (components/elements/Message/Message.vue)
+- `<ElementsButton>` | `<elements-button>` (components/elements/Button/Button.vue)
 - `<SharedContainer>` | `<shared-container>` (components/shared/Container/Container.vue)
 - `<SharedHeader>` | `<shared-header>` (components/shared/Header/Header.vue)
 - `<SharedHeaderPrimaryHeader>` | `<shared-header-primary-header>` (components/shared/Header/PrimaryHeader.vue)
@@ -15,6 +15,7 @@ You can directly use them in pages and other components without the need to impo
 - `<SharedMenuPrimaryMenu>` | `<shared-menu-primary-menu>` (components/shared/Menu/PrimaryMenu.vue)
 - `<SharedMenuSecondMenu>` | `<shared-menu-second-menu>` (components/shared/Menu/SecondMenu.vue)
 - `<SharedMenuThirdMenu>` | `<shared-menu-third-menu>` (components/shared/Menu/ThirdMenu.vue)
+- `<SharedPagination>` | `<shared-pagination>` (components/shared/Pagination/Pagination.vue)
 - `<SharedContainerContent>` | `<shared-container-content>` (components/shared/Container/components/ContainerContent.vue)
 - `<SharedContainerTop>` | `<shared-container-top>` (components/shared/Container/components/ContainerTop.vue)
 - `<SharedContainerComponentsContainterFooter>` | `<shared-container-components-containter-footer>` (components/shared/Container/components/ContainterFooter.vue)

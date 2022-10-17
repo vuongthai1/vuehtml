@@ -18,7 +18,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .header__top {
-  @media only screen and (max-width: 748px) {
+  @media (max-width: 1000px) {
     [class*="header__top"] {
       width: 100%;
     }

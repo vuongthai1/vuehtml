@@ -58,12 +58,12 @@ export default {
   grid-auto-flow: column;
   box-sizing: border-box;
   white-space: nowrap;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
     /* For mobile phones: */
     [class*="menu__item"] {
       display: none;
     }
-    
+
     [class*="disable__item"] {
       display: none;
     }
