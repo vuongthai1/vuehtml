@@ -103,7 +103,8 @@ export default {
   .blog__item {
     transition: 0.3s;
     border-radius: 5px;
-    height: 400px;
+    height: auto;
+    width: 100%;
     box-sizing: border-box;
 
     .blog:hover {
@@ -113,9 +114,11 @@ export default {
     .blog__image {
       max-width: 100%;
       height: auto;
+      text-align: center;
     }
 
     .blog__content {
+      padding-top: 20px;
       font-family: "Jost";
       font-style: normal;
       font-weight: 400;
@@ -139,7 +142,7 @@ export default {
     .blog__badge {
       position: relative;
       top: 33px;
-      left: 13px;
+      left: 70px;
       width: 100%;
       z-index: 10;
     }
@@ -155,7 +158,7 @@ export default {
       border-radius: 40px;
       font-size: 12px;
       line-height: 20px;
-      padding: 0 10px;
+      padding: 0 20px;
       display: inline-block;
     }
   }
@@ -171,7 +174,6 @@ export default {
   .blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
   }
 }
 </style>

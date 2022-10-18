@@ -2,32 +2,18 @@
   <div class="container">
     <div class="footer">
       <MenuFooter />
-      <ul class="payment">
-        <li><i class="ri-visa-line"></i></li>
-        <li><i class="ri-mastercard-line"></i></li>
-
-        <li><i class="ri-mastercard-fill"></i></li>
-
-        <li><i class="ri-paypal-line"></i></li>
-
-        <li><i class="ri-paypal-fill"></i></li>
-
-        <li><i class="ri-skype-fill"></i></li>
-
-        <li><i class="ri-wechat-pay-fill"></i></li>
-      </ul>
-      <div class="copy__right">
-        <p>Copyright © 2021, Your Store. All Rights Reserved.</p>
-      </div>
+      <FooterContact />
     </div>
   </div>
 </template>
 
 <script>
 import MenuFooter from "./components/FooterMenu.vue";
+import FooterContact from "./components/FooterContact.vue";
+
 export default {
   name: "Footer",
-  components: { MenuFooter },
+  components: { MenuFooter, FooterContact },
 };
 </script>
 
@@ -35,6 +21,12 @@ export default {
 .footer {
   width: 1155px;
   height: 354px;
+  display: flex;
+  @media screen and (min-width: 1024px) {
+    .footer {
+      display: block;
+    }
+  }
   .payment {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -42,7 +34,7 @@ export default {
     gap: 14.23px;
     width: 351px;
     height: 37.95px;
-    padding: 130px 60px;
+    padding: 130px 60px 0;
     li {
       a {
         text-decoration: none;

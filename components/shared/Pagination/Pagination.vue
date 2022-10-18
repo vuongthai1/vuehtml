@@ -118,13 +118,14 @@ export default {
 <style lang="scss" scoped>
 .pagination {
   display: grid;
-  grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   align-items: center;
   gap: 6px;
   position: absolute;
   width: 306px;
   height: 34px;
-  left: 42%;
+  left: 39%;
+  padding-top: 30px;
   li {
     text-align: center;
     font-family: "Jost";

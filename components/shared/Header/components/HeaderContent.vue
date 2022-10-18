@@ -54,7 +54,7 @@ export default {
   justify-content: flex-end;
   align-items: center;
   gap: 50px;
-
+  padding-right: 27%;
   a {
     text-decoration: none;
   }
