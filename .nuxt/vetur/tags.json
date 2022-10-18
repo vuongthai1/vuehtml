@@ -1,18 +1,18 @@
 {
-  "ElementsMessage": {
-    "description": "Auto imported from components/elements/Message/Message.vue"
+  "SharedHeader": {
+    "description": "Auto imported from components/shared/Header/Header.vue"
   },
-  "ElementsButton": {
-    "description": "Auto imported from components/elements/Button/Button.vue"
+  "SharedFooter": {
+    "description": "Auto imported from components/shared/Footer/Footer.vue"
   },
   "SharedContainer": {
     "description": "Auto imported from components/shared/Container/Container.vue"
   },
-  "SharedHeader": {
-    "description": "Auto imported from components/shared/Header/Header.vue"
-  },
   "SharedMenuCategoryMenu": {
     "description": "Auto imported from components/shared/Menu/CategoryMenu.vue"
+  },
+  "SharedMenuFooterMenu": {
+    "description": "Auto imported from components/shared/Menu/FooterMenu.vue"
   },
   "SharedMenuHeaderMenu": {
     "description": "Auto imported from components/shared/Menu/HeaderMenu.vue"
@@ -26,6 +26,24 @@
   "SharedPagination": {
     "description": "Auto imported from components/shared/Pagination/Pagination.vue"
   },
+  "ElementsButton": {
+    "description": "Auto imported from components/elements/Button/Button.vue"
+  },
+  "ElementsMessage": {
+    "description": "Auto imported from components/elements/Message/Message.vue"
+  },
+  "SharedHeaderContent": {
+    "description": "Auto imported from components/shared/Header/components/HeaderContent.vue"
+  },
+  "SharedHeaderTop": {
+    "description": "Auto imported from components/shared/Header/components/HeaderTop.vue"
+  },
+  "SharedFooterComponentsContactFooter": {
+    "description": "Auto imported from components/shared/Footer/components/ContactFooter.vue"
+  },
+  "SharedFooterComponentsMenuFooter": {
+    "description": "Auto imported from components/shared/Footer/components/MenuFooter.vue"
+  },
   "SharedContainerContent": {
     "description": "Auto imported from components/shared/Container/components/ContainerContent.vue"
   },
@@ -34,11 +52,5 @@
   },
   "SharedContainerComponentsContainterFooter": {
     "description": "Auto imported from components/shared/Container/components/ContainterFooter.vue"
-  },
-  "SharedHeaderContent": {
-    "description": "Auto imported from components/shared/Header/components/HeaderContent.vue"
-  },
-  "SharedHeaderTop": {
-    "description": "Auto imported from components/shared/Header/components/HeaderTop.vue"
   }
 }
