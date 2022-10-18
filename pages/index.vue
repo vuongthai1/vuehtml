@@ -2,7 +2,7 @@
   <div>
     <div>
       <Header />
-      <Container />
+      <Section />
       <Footer />
     </div>
   </div>
@@ -10,11 +10,11 @@
 
 <script>
 import Header from "../components/shared/Header/Header";
-import Container from "../components/shared/Container/Container";
+import Section from "../components/shared/Section/Section";
 import Footer from "../components/shared/Footer/Footer";
 
 export default {
-  components: { Header, Container,Footer },
+  components: { Header, Section,Footer },
   props: {
     post: { type: Object, default: null },
   },

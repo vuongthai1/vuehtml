@@ -5,18 +5,18 @@
       <CategoryMenu />
     </div>
     <div class="blog">
-      <ThirdMenu />
+      <Post />
     </div>
   </div>
 </template>
 
 <script>
 import CategoryMenu from "../../Menu/CategoryMenu";
-import ThirdMenu from "../../Menu/ThirdMenu";
+import Post from "../../../components/Post/Post.vue";
 
 export default {
   name: "ContainerContent",
-  components: { CategoryMenu, ThirdMenu },
+  components: { CategoryMenu, Post },
 };
 </script>
 

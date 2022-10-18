@@ -1,23 +1,23 @@
 <template lang="html">
   <div class="blog">
-    <div class="blog__item" v-for="item in menuItems">
+    <div class="blog__item" v-for="post in posts">
       <div class="blog__badge">
-        <div class="badge__item">{{ item.chip1 }}</div>
-        <div class="badge__item">{{ item.chip2 }}</div>
+        <div class="badge__item">{{ post.chip1 }}</div>
+        <div class="badge__item">{{ post.chip2 }}</div>
       </div>
-      <div class="blog__image"><img :src="item.img" alt="" /></div>
-      <div class="blog__content">{{ item.content }}</div>
-      <div class="day__upload">{{ item.dayUpload }}</div>
+      <div class="blog__image"><img :src="post.img" alt="" /></div>
+      <div class="blog__content">{{ post.content }}</div>
+      <div class="day__upload">{{ post.dayUpload }}</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ThirdMenu",
+  name: "Post",
   data() {
     return {
-      menuItems: [
+      posts: [
         {
           img: "image/8.png",
           content:
@@ -167,10 +167,10 @@ export default {
     gap: 30px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
   .blog {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
 }

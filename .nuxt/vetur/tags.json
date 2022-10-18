@@ -1,12 +1,21 @@
 {
+  "ElementsButton": {
+    "description": "Auto imported from components/elements/Button/Button.vue"
+  },
+  "ComponentsPost": {
+    "description": "Auto imported from components/components/Post/Post.vue"
+  },
+  "ElementsMessage": {
+    "description": "Auto imported from components/elements/Message/Message.vue"
+  },
   "SharedHeader": {
     "description": "Auto imported from components/shared/Header/Header.vue"
   },
+  "SharedPagination": {
+    "description": "Auto imported from components/shared/Pagination/Pagination.vue"
+  },
   "SharedFooter": {
     "description": "Auto imported from components/shared/Footer/Footer.vue"
-  },
-  "SharedContainer": {
-    "description": "Auto imported from components/shared/Container/Container.vue"
   },
   "SharedMenuCategoryMenu": {
     "description": "Auto imported from components/shared/Menu/CategoryMenu.vue"
@@ -20,17 +29,8 @@
   "SharedMenu": {
     "description": "Auto imported from components/shared/Menu/Menu.vue"
   },
-  "SharedMenuThirdMenu": {
-    "description": "Auto imported from components/shared/Menu/ThirdMenu.vue"
-  },
-  "SharedPagination": {
-    "description": "Auto imported from components/shared/Pagination/Pagination.vue"
-  },
-  "ElementsButton": {
-    "description": "Auto imported from components/elements/Button/Button.vue"
-  },
-  "ElementsMessage": {
-    "description": "Auto imported from components/elements/Message/Message.vue"
+  "SharedSection": {
+    "description": "Auto imported from components/shared/Section/Section.vue"
   },
   "SharedHeaderContent": {
     "description": "Auto imported from components/shared/Header/components/HeaderContent.vue"
@@ -38,19 +38,19 @@
   "SharedHeaderTop": {
     "description": "Auto imported from components/shared/Header/components/HeaderTop.vue"
   },
-  "SharedFooterComponentsContactFooter": {
-    "description": "Auto imported from components/shared/Footer/components/ContactFooter.vue"
+  "SharedFooterContact": {
+    "description": "Auto imported from components/shared/Footer/components/FooterContact.vue"
   },
-  "SharedFooterComponentsMenuFooter": {
-    "description": "Auto imported from components/shared/Footer/components/MenuFooter.vue"
+  "SharedFooterMenu": {
+    "description": "Auto imported from components/shared/Footer/components/FooterMenu.vue"
   },
-  "SharedContainerContent": {
-    "description": "Auto imported from components/shared/Container/components/ContainerContent.vue"
+  "SharedSectionFooter": {
+    "description": "Auto imported from components/shared/Section/components/SectionFooter.vue"
   },
-  "SharedContainerTop": {
-    "description": "Auto imported from components/shared/Container/components/ContainerTop.vue"
+  "SharedSectionComponentsSectionnBlog": {
+    "description": "Auto imported from components/shared/Section/components/SectionnBlog.vue"
   },
-  "SharedContainerComponentsContainterFooter": {
-    "description": "Auto imported from components/shared/Container/components/ContainterFooter.vue"
+  "SharedSectionTop": {
+    "description": "Auto imported from components/shared/Section/components/SectionTop.vue"
   }
 }
